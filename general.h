@@ -94,6 +94,7 @@ static const struct address_map_entry address_map[] = {
 static const struct product_id_map_entry product_id_map_preset[] = {
 	{8212, 8206, 0, 15},
 	{8219, 8206, 0, 15}, // AirPods 4 (issue #73) -> AirPods Pro
+	{8217, 8206, 0, 15} //  Airpods 4 non-ANC (issue #89) -> Airpods 4 ANC
 	{8228, 8206, 0, 15},
 	{8228, 8212, 16, 255}, // iOS 16 natively supports lightning airpods pro 2 ig
 	{8219, 8212, 16, 255}, // AirPods 4 -> AirPods Pro 2 Lightning
